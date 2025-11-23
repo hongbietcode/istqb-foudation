@@ -1,32 +1,10 @@
 {
-  "version": 2,
-  "name": "istqb-foundation-vietnamese",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "_book"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/_book/$1"
-    }
-  ],
-  "outputDirectory": "_book",
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "outputDirectory": "_book",
   "installCommand": "npm install",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
+  "devCommand": "npm run dev",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -38,7 +16,7 @@
       ]
     },
     {
-      "source": "/static/(.*)",
+      "source": "/gitbook/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
