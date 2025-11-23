@@ -1,0 +1,65 @@
+{
+  "title": "ISTQB Foundation Level - Tiếng Việt",
+  "description": "Giáo trình ISTQB Foundation Level đầy đủ bằng tiếng Việt với ví dụ thực tế từ các công ty Việt Nam",
+  "author": "ISTQB Foundation Vietnamese Team",
+  "language": "vi",
+  "direction": "ltr",
+  "gitbook": ">=3.0.0",
+
+  "root": ".",
+
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+
+  "plugins": [
+    "search-plus",
+    "expandable-chapters-small",
+    "github",
+    "copy-code-button",
+    "anchor-navigation-ex",
+    "theme-comscore",
+    "-lunr",
+    "-search",
+    "advanced-emoji",
+    "prism",
+    "-highlight"
+  ],
+
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/yourusername/istqb-foundation"
+    },
+    "theme-default": {
+      "showLevel": true,
+      "styles": {
+        "website": "styles/website.css"
+      }
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "gherkin": "cucumber"
+      }
+    }
+  },
+
+  "styles": {
+    "website": "styles/website.css"
+  },
+
+  "links": {
+    "sidebar": {
+      "ISTQB Official": "https://www.istqb.org",
+      "GitHub Repository": "https://github.com/yourusername/istqb-foundation"
+    }
+  }
+}

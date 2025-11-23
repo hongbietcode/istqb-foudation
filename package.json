@@ -1,0 +1,27 @@
+{
+  "name": "istqb-foundation-vietnamese",
+  "version": "2.1.0",
+  "description": "Giáo trình ISTQB Foundation Level hoàn chỉnh bằng tiếng Việt",
+  "scripts": {
+    "dev": "honkit serve",
+    "build": "honkit build",
+    "clean": "rm -rf _book"
+  },
+  "keywords": [
+    "istqb",
+    "testing",
+    "qa",
+    "software-testing",
+    "vietnamese",
+    "gitbook"
+  ],
+  "author": "ISTQB Foundation Vietnamese Team",
+  "license": "MIT",
+  "devDependencies": {
+    "honkit": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/istqb-foundation"
+  }
+}
